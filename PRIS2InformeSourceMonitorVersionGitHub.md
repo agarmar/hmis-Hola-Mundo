@@ -1,10 +1,4 @@
-<style>
-r { color: Red }
-g { color: Green }
-center { text-align:center }
-</style>
-
-<html><h1 style="text-align:center">UNIVERSIDAD DE ALMERÍA</h1><br>
+<h1 style="text-align:center">UNIVERSIDAD DE ALMERÍA</h1><br>
 
 <h2 style="text-align:center">Escuela Superior de Ingeniería</h2>
 <p style="text-align:center"><img  style="text-align:center" src="logo.png"></p>
@@ -16,7 +10,8 @@ center { text-align:center }
 Profesora: 	Isabel María del ÁGUILA CANO<br>
 &copy; Ángel Joaquín GARCÍA MÁRQUEZ<br> 
 Fecha: 	28 de marzo de 2023<br>
-</p></html>
+</p>
+
 
 # Introducción
 
@@ -428,7 +423,7 @@ La aplicación SourceMonitor proporciona las métricas que se muestran en la Tab
 * Se necesita **revisar los comentarios** en *Customer.java* (tiene pocos) y **poner comentarios** en *Movie.java* y *Rental.java* (no tienen).
 
 ## Caso 2
-La aplicación SourceMonitor proporciona las métricas que se muestran en la Tabla 8.1 y apareciendo en negrita las que se corresponden con **valores inferiores** al rango heurístico de la tabla 0.1 y en cursiva los *valores superiores* al rango mencionado.  Además, se usa el color verde para indicar el  ${\color{green}archivo mejorado}$.
+La aplicación SourceMonitor proporciona las métricas que se muestran en la Tabla 8.1 y apareciendo en negrita las que se corresponden con **valores inferiores** al rango heurístico de la tabla 0.1 y en cursiva los *valores superiores* al rango mencionado.  Además, se usa el color verde para indicar el ${\color{green}archivo}$ ${\color{green}mejorado}$.
 Al analizar el código se obtienen los datos que se muestran en las tablas 8.2, 8.3 y 8.4.
 
 |File        |Lines|Stmts|%Bran|Calls|%Comm<br>[8-20]|Classes|Met/Class<br>[4-16]|AvgSt/Met<br>[6-12]|MaxCC<br>[2-8]|AvgCC<br>[2-4]|MaxDep<br>[3-7]|AvgDep<br>[1-2,2]|
@@ -477,7 +472,7 @@ Al analizar el código se obtienen los datos que se muestran en las tablas 9.2, 
 | ${\color{green}Customer.java}$  |55	|30	|6,7	|12	|9,1    |1	|4,00	|**4,75**|4    |1,75	  |3	|1,77|
 |Movie.java	    |29	|17	|0,0	|0	|**0,0**|1	|4,00	|**1,25**|**1**|**1,00**|2	|1,18  |
 | ${\color{green}Rental.java}$  |42	|30	|36,7	|7	|**0,0**|1	|4,00 |**5,50**|7    |2,50    |4	|*2,57*|
-| ${\color{green}CASO 3}$|126|77	|16,9	|19	|**4,0**|3	|4,00 |**3,83**|7    |**1,75**|4	|1,95  |
+| ${\color{green}CASO}$ ${\color{green}3}$|126|77	|16,9	|19	|**4,0**|3	|4,00 |**3,83**|7    |**1,75**|4	|1,95  |
 <html><p style="text-align:center"><b>Tabla 9.1</b>: Métricas de los archivos .java del caso 3 obtenidas por SourceMonitor</p></html>
 
 
@@ -510,7 +505,7 @@ Al analizar el código se obtienen los datos que se muestran en las tablas 9.2, 
 * Se necesita **poner comentarios** en *Movie.java* y *Rental.java* ya que no tienen.
 
 ## Caso 4
-La aplicación SourceMonitor proporciona las métricas que se muestran en la Tabla 10.1 y apareciendo en negrita las que se corresponden con **valores inferiores** al rango heurístico de la tabla 0.1 y en cursiva los *valores superiores* al rango mencionado.  Además, se usa el color verde para indicar el  ${\color{green}archivo mejorado}$.
+La aplicación SourceMonitor proporciona las métricas que se muestran en la Tabla 10.1 y apareciendo en negrita las que se corresponden con **valores inferiores** al rango heurístico de la tabla 0.1 y en cursiva los *valores superiores* al rango mencionado.  Además, se usa el color verde para indicar el ${\color{green}archivo}$ ${\color{green}mejorado}$.
 Al analizar el código se obtienen los datos que se muestran en las tablas 10.2, 10.3 y 10.4.
 
 |File        |Lines|Stmts|%Bran|Calls|%Comm<br>[8-20]|Classes|Met/Class<br>[4-16]|AvgSt/Met<br>[6-12]|MaxCC<br>[2-8]|AvgCC<br>[2-4]|MaxDep<br>[3-7]|AvgDep<br>[1-2,2]|
@@ -518,7 +513,7 @@ Al analizar el código se obtienen los datos que se muestran en las tablas 10.2,
 | ${\color{green}Customer.java}$ |**53**|**28**|7,1  |12	|**7,5**|1	|4,00	|**4,25**|4    |1,75	  |3	|1,68|
 |Movie.java	    |29	   |17	  |0,0	|0	|**0,0**|1	|4,00	|**1,25**|**1**|**1,00**|2	|1,18  |
 |Rental.java>	  |42	   |30	  |36,7	|7	|**0,0**|1	|4,00 |**5,50**|7    |2,50    |4	|*2,57*|
-| ${\color{green}CASO 4}$|126   |77	  |16,9	|19	|**4,0**|3	|4,00 |**3,67**|7    |**1,75**|4	|1,92  |
+| ${\color{green}CASO}$ ${\color{green}4}$|126   |77	  |16,9	|19	|**4,0**|3	|4,00 |**3,67**|7    |**1,75**|4	|1,92  |
 <html><p style="text-align:center"><b>Tabla 10.1</b>: Métricas de los archivos .java del caso 4 obtenidas por SourceMonitor</p></html>
 
 
@@ -551,15 +546,15 @@ Al analizar el código se obtienen los datos que se muestran en las tablas 10.2,
 * Se necesita  **revisar los comentarios** en *Customer.java* (tiene pocos) y **poner comentarios** en *Movie.java* y *Rental.java* ya que no tienen.
 
 ## Caso 5
-La aplicación SourceMonitor proporciona las métricas que se muestran en la Tabla 11.1 y apareciendo en negrita las que se corresponden con **valores inferiores** al rango heurístico de la tabla 0.1 y en cursiva los *valores superiores* al rango mencionado.  Además, se usa el color verde para indicar el ${\color{green}archivo mejorado}$.
+La aplicación SourceMonitor proporciona las métricas que se muestran en la Tabla 11.1 y apareciendo en negrita las que se corresponden con **valores inferiores** al rango heurístico de la tabla 0.1 y en cursiva los *valores superiores* al rango mencionado.  Además, se usa el color verde para indicar el ${\color{green}archivo}$ ${\color{green}mejorado}$.
 Al analizar el código se obtienen los datos que se muestran en las tablas 11.2, 11.3 y 11.4.
 
 |File        |Lines|Stmts|%Bran|Calls|%Comm<br>[8-20]|Classes|Met/Class<br>[4-16]|AvgSt/Met<br>[6-12]|MaxCC<br>[2-8]|AvgCC<br>[2-4]|MaxDep<br>[3-7]|AvgDep<br>[1-2,2]|
 |---         |---: |---: |---: |---: |:---:  |:---:   |:---:       |:---:   |:---:  |:---:  |:---:   |:---:   |
 |${\color{green}Customer.java}$ |**48**|**26**|3,8  |10	|**4,2**|1	|4,00	|**3,75**|4    |**1,25**|3	|1,58|
 |Movie.java	    |29	   |17	  |0,0	|0	|**0,0**|1	|4,00	|**1,25**|**1**|**1,00**|2	|1,18  |
-|${\color{green}Rental.java>}$	  |**50**|**35**|37,1	|10	|**0,0**|1	|5,00 |**5,20**|7    |2,80    |4	|*2,46*|
-|${\color{green}CASO 5}$|127   |78	  |17,9	|20	|**1,6**|3	|4,33 |**3,54**|7    |**1,77**|4	|1,88  |
+|${\color{green}Rental.java}$	  |**50**|**35**|37,1	|10	|**0,0**|1	|5,00 |**5,20**|7    |2,80    |4	|*2,46*|
+|${\color{green}CASO}$ ${\color{green}5}$|127   |78	  |17,9	|20	|**1,6**|3	|4,33 |**3,54**|7    |**1,77**|4	|1,88  |
 <html><p style="text-align:center"><b>Tabla 11.1</b>: Métricas de los archivos .java del caso 5 obtenidas por SourceMonitor</p></html>
 
 
