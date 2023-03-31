@@ -1,3 +1,9 @@
+<style>
+r { color: Red }
+g { color: Green }
+center { text-align:center }
+</style>
+
 <html><h1 style="text-align:center">UNIVERSIDAD DE ALMERÍA</h1><br>
 
 <h2 style="text-align:center">Escuela Superior de Ingeniería</h2>
@@ -411,7 +417,7 @@ La aplicación SourceMonitor proporciona las métricas que se muestran en la Tab
 
 |File        |<td colspan="5"><b>Complejidades&nbsp;ciclomáticas&nbsp;de&nbsp;métodos</b></td>|||||
 |---         |:---    |---       |---         |---        |--- |
-|<html><span style="color:red">Customer.java</span></html>|Customer&rarr;1	|addRenta1&rarr;1	|getName&rarr;1	|<html><span style="color:red">statement&rarr;10</span></html>||
+| ${\color{red}Customer.java}$|Customer&rarr;1	|addRenta1&rarr;1	|getName&rarr;1	| ${\color{red}statement=10}$||
 |Movie.java	    |Movie&rarr;1	|getPriceCode&rarr;1	|setPriceCode&rarr;1	|getTitle&rarr;1||
 |Rental.java	  |Rental&rarr;1	|getDaysRented&rarr;1	|getMovie&rarr;1||	
 <html><p style="text-align:center"><b>Tabla 7.4</b>: Detalles de las <i>complejidades ciclomáticas</i> de los métodos del caso 1</p></html>
@@ -422,12 +428,12 @@ La aplicación SourceMonitor proporciona las métricas que se muestran en la Tab
 * Se necesita **revisar los comentarios** en *Customer.java* (tiene pocos) y **poner comentarios** en *Movie.java* y *Rental.java* (no tienen).
 
 ## Caso 2
-La aplicación SourceMonitor proporciona las métricas que se muestran en la Tabla 8.1 y apareciendo en negrita las que se corresponden con **valores inferiores** al rango heurístico de la tabla 0.1 y en cursiva los *valores superiores* al rango mencionado.  Además, se usa el color verde para indicar el <html><span style="color:green">archivo mejorado</span></html>.
+La aplicación SourceMonitor proporciona las métricas que se muestran en la Tabla 8.1 y apareciendo en negrita las que se corresponden con **valores inferiores** al rango heurístico de la tabla 0.1 y en cursiva los *valores superiores* al rango mencionado.  Además, se usa el color verde para indicar el  ${\color{green}archivo mejorado}$.
 Al analizar el código se obtienen los datos que se muestran en las tablas 8.2, 8.3 y 8.4.
 
 |File        |Lines|Stmts|%Bran|Calls|%Comm<br>[8-20]|Classes|Met/Class<br>[4-16]|AvgSt/Met<br>[6-12]|MaxCC<br>[2-8]|AvgCC<br>[2-4]|MaxDep<br>[3-7]|AvgDep<br>[1-2,2]|
 |---         |---: |---: |---: |---: |:---:  |:---:   |:---:       |:---:   |:---:  |:---:  |:---:   |:---:   |
-|<html><span style="color:green">Customer.java</span></html>|80	|48	|27,1	|18	|**6,3**|1	|5,00	   |7,40	  |7    |2,80	   |5	|*2,48*|
+| ${\color{green}Customer.java}$|80	|48	|27,1	|18	|**6,3**|1	|5,00	   |7,40	  |7    |2,80	   |5	|*2,48*|
 |Movie.java	    |29	|16	|0,0	|0	|**0,0**|1	|4,00	   |**1,25**|**1**|**1,00**|2	|1,19  |
 |Rental.java	  |20	|11	|0,0	|0	|**0,0**|1	|**3,00**|**1,33**|**1**|**1,00**|2	|1,18  |
 |**CASO&nbsp;2**|123|71	|18,3	|18	|**4,1**|3	|**3,67**|**3,83**|7    |**1,75**|5	|2,01  |
@@ -452,7 +458,7 @@ Al analizar el código se obtienen los datos que se muestran en las tablas 8.2, 
 
 |File        |<td colspan="5"><b>Complejidades&nbsp;ciclomáticas&nbsp;de&nbsp;métodos</b></td>|||||
 |---         |:---    |---       |---         |---        |--- |
-|<html><span style="color:green">Customer.java</span></html>|Customer&rarr;1	|addRenta1&rarr;1	|getName&rarr;1	|<html><span style="color:green">statement&rarr;<b>4</b></span></html>|**amountOf&rarr;7**|
+| ${\color{green}Customer.java}$|Customer&rarr;1	|addRenta1&rarr;1	|getName&rarr;1	| ${\color{green}statement=4}$|**amountOf&rarr;7**|
 |Movie.java	    |Movie&rarr;1	|getPriceCode&rarr;1	|setPriceCode&rarr;1	|getTitle&rarr;1||
 |Rental.java	  |Rental&rarr;1	|getDaysRented&rarr;1	|getMovie&rarr;1||	
 <html><p style="text-align:center"><b>Tabla 8.4</b>: Detalles de las <i>complejidades ciclomáticas</i> de los métodos del caso 2</p></html>
@@ -463,15 +469,15 @@ Al analizar el código se obtienen los datos que se muestran en las tablas 8.2, 
 * Se sigue necesitando **revisar los comentarios** en *Customer.java* (tiene pocos) y **poner comentarios** en *Movie.java* y *Rental.java* (no tienen).
 
 ## Caso 3
-La aplicación SourceMonitor proporciona las métricas que se muestran en la Tabla 9.1 y apareciendo en negrita las que se corresponden con **valores inferiores** al rango heurístico de la tabla 0.1 y en cursiva los *valores superiores* al rango mencionado.  Además, se usa el color verde para indicar el <html><span style="color:green">archivo mejorado</span></html>.
+La aplicación SourceMonitor proporciona las métricas que se muestran en la Tabla 9.1 y apareciendo en negrita las que se corresponden con **valores inferiores** al rango heurístico de la tabla 0.1 y en cursiva los *valores superiores* al rango mencionado.  Además, se usa el color verde para indicar el  ${\color{green}archivo mejorado<}$>.
 Al analizar el código se obtienen los datos que se muestran en las tablas 9.2, 9.3 y 9.4.
 
 |File        |Lines|Stmts|%Bran|Calls|%Comm<br>[8-20]|Classes|Met/Class<br>[4-16]|AvgSt/Met<br>[6-12]|MaxCC<br>[2-8]|AvgCC<br>[2-4]|MaxDep<br>[3-7]|AvgDep<br>[1-2,2]|
 |---         |---: |---: |---: |---: |:---:  |:---:   |:---:       |:---:   |:---:  |:---:  |:---:   |:---:   |
-|<html><span style="color:green">Customer.java</span></html>  |55	|30	|6,7	|12	|9,1    |1	|4,00	|**4,75**|4    |1,75	  |3	|1,77|
+| ${\color{green}Customer.java}$  |55	|30	|6,7	|12	|9,1    |1	|4,00	|**4,75**|4    |1,75	  |3	|1,77|
 |Movie.java	    |29	|17	|0,0	|0	|**0,0**|1	|4,00	|**1,25**|**1**|**1,00**|2	|1,18  |
-|<html><span style="color:green">Rental.java</span></html>  |42	|30	|36,7	|7	|**0,0**|1	|4,00 |**5,50**|7    |2,50    |4	|*2,57*|
-|<html><span style="color:green">**CASO&nbsp;3**</span></html>|126|77	|16,9	|19	|**4,0**|3	|4,00 |**3,83**|7    |**1,75**|4	|1,95  |
+| ${\color{green}Rental.java}$  |42	|30	|36,7	|7	|**0,0**|1	|4,00 |**5,50**|7    |2,50    |4	|*2,57*|
+| ${\color{green}CASO 3}$|126|77	|16,9	|19	|**4,0**|3	|4,00 |**3,83**|7    |**1,75**|4	|1,95  |
 <html><p style="text-align:center"><b>Tabla 9.1</b>: Métricas de los archivos .java del caso 3 obtenidas por SourceMonitor</p></html>
 
 
@@ -493,9 +499,9 @@ Al analizar el código se obtienen los datos que se muestran en las tablas 9.2, 
 
 |File        |<td colspan="5"><b>Complejidades&nbsp;ciclomáticas&nbsp;de&nbsp;métodos</b></td>|||||
 |---         |:---    |---       |---         |---        |--- |
-|<html><span style="color:green">Customer.java</span>|Customer&rarr;1	|addRenta1&rarr;1	|getName&rarr;1	|statement&rarr;4| <html><span style="color:green"><b>-&nbsp;-&nbsp;-</b></span></html>|
+| ${\color{green}Customer.java}$|Customer&rarr;1	|addRenta1&rarr;1	|getName&rarr;1	|statement&rarr;4|  ${\color{green}---}$|
 |Movie.java	    |Movie&rarr;1	|getPriceCode&rarr;1	|setPriceCode&rarr;1	|getTitle&rarr;1||
-|<html><span style="color:green">Rental.java</span></html>  |Rental&rarr;1	|getDaysRented&rarr;1	|getMovie&rarr;1|<html><span style="color:green">**getCharge&rarr;7**</span></html>|	
+| ${\color{green}Rental.java}$  |Rental&rarr;1	|getDaysRented&rarr;1	|getMovie&rarr;1| ${\color{green}getCharge=7}$|	
 <html><p style="text-align:center"><b>Tabla 9.4</b>: Detalles de las <i>complejidades ciclomáticas</i> de los métodos del caso 3</p></html>
 
 
@@ -504,15 +510,15 @@ Al analizar el código se obtienen los datos que se muestran en las tablas 9.2, 
 * Se necesita **poner comentarios** en *Movie.java* y *Rental.java* ya que no tienen.
 
 ## Caso 4
-La aplicación SourceMonitor proporciona las métricas que se muestran en la Tabla 10.1 y apareciendo en negrita las que se corresponden con **valores inferiores** al rango heurístico de la tabla 0.1 y en cursiva los *valores superiores* al rango mencionado.  Además, se usa el color verde para indicar el <html><span style="color:green">archivo mejorado</span></html>.
+La aplicación SourceMonitor proporciona las métricas que se muestran en la Tabla 10.1 y apareciendo en negrita las que se corresponden con **valores inferiores** al rango heurístico de la tabla 0.1 y en cursiva los *valores superiores* al rango mencionado.  Además, se usa el color verde para indicar el  ${\color{green}archivo mejorado}$.
 Al analizar el código se obtienen los datos que se muestran en las tablas 10.2, 10.3 y 10.4.
 
 |File        |Lines|Stmts|%Bran|Calls|%Comm<br>[8-20]|Classes|Met/Class<br>[4-16]|AvgSt/Met<br>[6-12]|MaxCC<br>[2-8]|AvgCC<br>[2-4]|MaxDep<br>[3-7]|AvgDep<br>[1-2,2]|
 |---         |---: |---: |---: |---: |:---:  |:---:   |:---:       |:---:   |:---:  |:---:  |:---:   |:---:   |
-|<html><span style="color:green">Customer.java</span></html>  |**53**|**28**|7,1  |12	|**7,5**|1	|4,00	|**4,25**|4    |1,75	  |3	|1,68|
+| ${\color{green}Customer.java}$ |**53**|**28**|7,1  |12	|**7,5**|1	|4,00	|**4,25**|4    |1,75	  |3	|1,68|
 |Movie.java	    |29	   |17	  |0,0	|0	|**0,0**|1	|4,00	|**1,25**|**1**|**1,00**|2	|1,18  |
 |Rental.java>	  |42	   |30	  |36,7	|7	|**0,0**|1	|4,00 |**5,50**|7    |2,50    |4	|*2,57*|
-|<html><span style="color:green">**CASO&nbsp;4**</span></html>|126   |77	  |16,9	|19	|**4,0**|3	|4,00 |**3,67**|7    |**1,75**|4	|1,92  |
+| ${\color{green}CASO 4}$|126   |77	  |16,9	|19	|**4,0**|3	|4,00 |**3,67**|7    |**1,75**|4	|1,92  |
 <html><p style="text-align:center"><b>Tabla 10.1</b>: Métricas de los archivos .java del caso 4 obtenidas por SourceMonitor</p></html>
 
 
@@ -534,7 +540,7 @@ Al analizar el código se obtienen los datos que se muestran en las tablas 10.2,
 
 |File        |<td colspan="5"><b>Complejidades&nbsp;ciclomáticas&nbsp;de&nbsp;métodos</b></td>|||||
 |---         |:---    |---       |---         |---        |--- |
-|<html><span style="color:green">Customer.java</span></html>|Customer&rarr;1	|addRenta1&rarr;1	|getName&rarr;1	|<html><span style="color:green">statement&rarr;<b>4</b></span></html>||
+| ${\color{green}Customer.java}$|Customer&rarr;1	|addRenta1&rarr;1	|getName&rarr;1	| ${\color{green}statement=4}$||
 |Movie.java	  |Movie&rarr;1	  |getPriceCode&rarr;1	|setPriceCode&rarr;1	|getTitle&rarr;1||
 |Rental.java  |Rental&rarr;1	|getDaysRented&rarr;1	|getMovie&rarr;1|**getCharge&rarr;7**|	
 <html><p style="text-align:center"><b>Tabla 10.4</b>: Detalles de las <i>complejidades ciclomáticas</i> de los métodos del caso 4</p></html>
@@ -545,15 +551,15 @@ Al analizar el código se obtienen los datos que se muestran en las tablas 10.2,
 * Se necesita  **revisar los comentarios** en *Customer.java* (tiene pocos) y **poner comentarios** en *Movie.java* y *Rental.java* ya que no tienen.
 
 ## Caso 5
-La aplicación SourceMonitor proporciona las métricas que se muestran en la Tabla 11.1 y apareciendo en negrita las que se corresponden con **valores inferiores** al rango heurístico de la tabla 0.1 y en cursiva los *valores superiores* al rango mencionado.  Además, se usa el color verde para indicar el <html><span style="color:green">archivo mejorado</span></html>.
+La aplicación SourceMonitor proporciona las métricas que se muestran en la Tabla 11.1 y apareciendo en negrita las que se corresponden con **valores inferiores** al rango heurístico de la tabla 0.1 y en cursiva los *valores superiores* al rango mencionado.  Además, se usa el color verde para indicar el ${\color{green}archivo mejorado}$.
 Al analizar el código se obtienen los datos que se muestran en las tablas 11.2, 11.3 y 11.4.
 
 |File        |Lines|Stmts|%Bran|Calls|%Comm<br>[8-20]|Classes|Met/Class<br>[4-16]|AvgSt/Met<br>[6-12]|MaxCC<br>[2-8]|AvgCC<br>[2-4]|MaxDep<br>[3-7]|AvgDep<br>[1-2,2]|
 |---         |---: |---: |---: |---: |:---:  |:---:   |:---:       |:---:   |:---:  |:---:  |:---:   |:---:   |
-|<html><span style="color:green">Customer.java</span></html>  |**48**|**26**|3,8  |10	|**4,2**|1	|4,00	|**3,75**|4    |**1,25**|3	|1,58|
+|${\color{green}Customer.java}$ |**48**|**26**|3,8  |10	|**4,2**|1	|4,00	|**3,75**|4    |**1,25**|3	|1,58|
 |Movie.java	    |29	   |17	  |0,0	|0	|**0,0**|1	|4,00	|**1,25**|**1**|**1,00**|2	|1,18  |
-|<html><span style="color:green">Rental.java></span></html>	  |**50**|**35**|37,1	|10	|**0,0**|1	|5,00 |**5,20**|7    |2,80    |4	|*2,46*|
-|<html><span style="color:green">**CASO&nbsp;5**</span></html>|127   |78	  |17,9	|20	|**1,6**|3	|4,33 |**3,54**|7    |**1,77**|4	|1,88  |
+|${\color{green}Rental.java>}$	  |**50**|**35**|37,1	|10	|**0,0**|1	|5,00 |**5,20**|7    |2,80    |4	|*2,46*|
+|${\color{green}CASO 5}$|127   |78	  |17,9	|20	|**1,6**|3	|4,33 |**3,54**|7    |**1,77**|4	|1,88  |
 <html><p style="text-align:center"><b>Tabla 11.1</b>: Métricas de los archivos .java del caso 5 obtenidas por SourceMonitor</p></html>
 
 
@@ -575,12 +581,12 @@ Al analizar el código se obtienen los datos que se muestran en las tablas 11.2,
 
 |File        |<td colspan="5"><b>Complejidades&nbsp;ciclomáticas&nbsp;de&nbsp;métodos</b></td>|||||
 |---         |:---    |---       |---         |---        |--- |
-|<html><span style="color:green">Customer.java</span></html>|Customer&rarr;1	|addRenta1&rarr;1	|getName&rarr;1	|<html><span style="color:green">statement&rarr;<b>2</b></span></html>||
+|${\color{green}Customer.java}$|Customer&rarr;1	|addRenta1&rarr;1	|getName&rarr;1	|${\color{green}statement=2}$||
 |Movie.java	    |Movie&rarr;1	|getPriceCode&rarr;1	|setPriceCode&rarr;1	|getTitle&rarr;1|
-|<html><span style="color:green">Rental.java</span></html>  |Rental&rarr;1	|getDaysRented&rarr;1	|getMovie&rarr;1|getCharge&rarr;7|<html><span style="color:green">**getFrecuentRenterPoints&rarr;4**</span></html>|	
+|${\color{green}Rental.java}$  |Rental&rarr;1	|getDaysRented&rarr;1	|getMovie&rarr;1|getCharge&rarr;7|${\color{green}getFrecuentRenterPoints=4}$|	
 <html><p style="text-align:center"><b>Tabla 11.4</b>: Detalles de las <i>complejidades ciclomáticas</i> de los métodos del caso 5</p></html>
 
 
-**Conclusiones:**
+**Conclusiones:**  
 * La **refactorización** consistente en la creación del método *getFrecuentRenterPoints()* reduciendo el código en el método *statement()* hace que el código, y el proyecto globalmente, sea <u>más comprensible</u>. 
 * Se necesita **revisar los comentarios** en *Customer.java* (tiene pocos) y **poner comentarios** en *Movie.java* y *Rental.java* ya que no tienen.
